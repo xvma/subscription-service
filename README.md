@@ -17,25 +17,6 @@ The service provides an HTTP API for managing user subscriptions with the follow
 - *Logrus* - Structured logging
 - *Swagger* - API documentation
 
-## Project Structure
-
-subscription-service/
-↔ cmd/
-←   ↔ main.go                 # Entry point
-← internal/
-←    ↔ config/                 # Configuration
-←    ↔ database/               # Database connection
-←    ↔ models/                 # Data models
-←   ↔ repository/             # Database operations
-←    ↔ handlers/               # HTTP handlers
-←    ↔ middleware/             # Middleware
-← migrations/                 # Database migrations
-← docs/                       # Documentation
-← docker-compose.yml          # Docker Compose config
-← Dockerfile                 # Docker image
-← .env                        # Environment variables
-← Readme.md                   # Documentation
-
 ## Installation and Setup
 
 ### Prerequisites
